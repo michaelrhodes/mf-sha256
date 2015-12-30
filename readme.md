@@ -20,7 +20,7 @@ var hmac = require('mf-sha256/hmac')
 var pbkdf2 = require('mf-sha256/pbkdf2')
 ```
 
-# Page weight (just for the hash function)
+### Page weight (just for the hash function)
 
 | compression         |    size |
 | :------------------ | ------: |
