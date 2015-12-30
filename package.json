@@ -1,6 +1,6 @@
 {
   "name": "mf-sha256",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "a modular fork of fast-sha256",
   "main": "index.js",
   "devDependencies": {
