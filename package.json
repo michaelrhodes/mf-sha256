@@ -1,0 +1,29 @@
+{
+  "name": "mf-sha256",
+  "version": "0.0.0",
+  "description": "a modular fork of fast-sha256",
+  "main": "index.js",
+  "devDependencies": {
+    "fast-sha256": "0.9.2",
+    "tape": "^4.4.0"
+  },
+  "scripts": {
+    "test": "SHA256_SRC=../../legacy.js tape node_modules/fast-sha256/test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:michaelrhodes/mf-sha256"
+  },
+  "keywords": [
+    "sha256",
+    "typedarray",
+    "browser",
+    "fast"
+  ],
+  "author": "Dmitry Chestnykh / Michael Rhodes",
+  "license": "Public domain",
+  "bugs": {
+    "url": "https://github.com/michaelrhodes/mf-sha256/issues"
+  },
+  "homepage": "https://github.com/michaelrhodes/mf-sha256"
+}
